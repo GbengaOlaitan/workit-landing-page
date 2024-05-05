@@ -367,7 +367,7 @@ header h1{
     }
 
     .hero_action h1{
-      /* max-width:39.6875rem; */
+      max-width:39.6875rem;
       font-size: 5rem;
       color: var(--white-txt-color, #FFF);
       text-align: center;
