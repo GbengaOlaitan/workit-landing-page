@@ -1,0 +1,481 @@
+:root{
+  --bg-color:#24053E;
+  --btn-color:#44FFA1;
+  --prg-color:#584D62;
+  --txt-color:#FCF8FF;
+  --white-txt-color:#FFFFFF;
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header_container{
+height: 30.10669rem;
+background-color: var(--bg-color);
+border-bottom-left-radius: 50% 20px;
+border-bottom-right-radius:  50% 20px;
+position:relative;
+}
+
+.top_container{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+}
+
+.apply_btn{
+  color: var(--white-txt-color);
+  font-family: Manrope sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.01rem;
+  border: none;
+  border-bottom: 2px solid var(--btn-color);
+  background-color: transparent;
+}
+.pattern {
+  display: none;
+}
+
+header h1{
+  text-align: center;
+  font-family:"Fraunces 144pt" sans-serif;
+  color: var(--white-txt-color);
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.highlight{
+  border-bottom: 2px solid var(--btn-color);
+}
+.learn_more, .btn{
+  color: var(--bg-color, #24053E);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.01rem;
+  background-color: var(--btn-color);
+  padding: 0.69em 1.5em 0.75em 1.44em;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  border: 4px solid var(--btn-color);
+}
+
+.img_hero{
+  width: 18.64406rem;
+  height: 11.13494rem;
+  margin: 0 auto ;
+  position: absolute;
+  bottom: -18%;
+  left: 15%;
+
+}
+
+.img_hero img{
+  width: 100%;
+}
+
+.s_container1{
+  background-color: #FCF8FF;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius:  50% 20px;
+  padding-bottom: 4rem;
+  margin-top: -200px;
+  padding-top: 300px;
+}
+
+.num{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.90625rem;
+  border: 1px solid;
+  text-align: center;
+  margin: 2.5rem auto 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.num p{
+  color: var(--bg-color, #24053E);
+  text-align: center;
+  font-family: "Fraunces 144pt";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+.post h2{
+  color: var(--bg-color, #24053E);
+  text-align: center;
+  font-family: "Fraunces 144pt";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+  }
+
+  .post p{
+    color: var(--prg-color, #584D62);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+
+  .founder_dp{
+    width: 17.5625rem;
+    height: 17.5625rem;
+    margin:6.27rem auto 0;
+    position: relative;
+    z-index: -1;
+  }
+
+  .founder_dp img{
+    width: 100%;
+  }
+
+  .founder_message{
+    background-color: var(--bg-color);
+    padding:0 1.92rem 2rem;
+    margin-top: -50px;
+  }
+
+  .founder_message h3{
+    color: var(--white-txt-color, #FFF);
+    text-align: center;
+    font-family: "Fraunces 144pt";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3rem;
+    padding: 3rem 0 1rem;
+  }
+
+  .founder_message p{
+    color: var(--white-txt-color, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .btn{
+    margin: 0 auto 2rem;
+  }
+
+  .footer_container{
+    width: 7.25rem;
+    height: 6.389rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin:4.62rem auto 4rem;
+    }
+
+  .socials{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+  /* TABLET */
+
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .container{
+      max-width: 1023px;
+      overflow: hidden;
+    }
+
+    .header_container{
+      height: 33.76475rem;
+      padding-bottom: 7em;
+    }
+    .hero_action h1{
+      color: var(--white-txt-color, #FFF);
+      text-align: center;
+      font-family: "Fraunces 144pt";
+      font-size: 3.75rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.75rem;
+      max-width: 35.8125rem;
+      padding: 0 1em;
+    
+    }
+    .pattern{
+      display: block;
+    }
+    .hero_text{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hero_action{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pattern_1{
+     margin-top: -50px;
+     margin-left: -230px;
+
+    }
+    .pattern_2{
+      margin-top: 150px;
+      margin-right: -100px;
+    }
+
+    .learn_more{
+      margin-bottom: 3.27rem;
+    }
+
+    .post{
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .num{
+      margin: 0;
+    }
+
+    .post-text1{
+      margin-top: 4.09rem;
+    }
+
+    .post-text{
+      max-width:30.8125rem;
+      margin-bottom: 3rem;
+    }
+
+    .post-text h2, .post-text p{
+      text-align: left;
+    }
+
+    .img_hero{
+      width: 29.94706rem;
+      height: 17.91269rem;
+      margin: 0 auto ;
+      position: absolute;
+      bottom: -30%;
+      left: 25%;
+    }
+
+    .img_hero img{
+      width: 100%;
+    }
+
+    .posts_container{
+      margin-top: 3rem;
+    }
+    .section2{
+      width: 90%;
+      margin: 0 auto ;
+      margin-top: 6.88rem;
+    }
+    .s_container2{
+      position: relative;
+    }
+    .founder_message{
+      position: absolute;
+      max-width:32.125rem;
+      height: 23.4375rem;
+      padding: 0 3.5rem;
+      top:68%;
+      left: 25%;
+    }
+
+    .founder_message h3, .founder_message p, .founder_message button{
+      text-align: left;
+      margin: 0;
+    }
+
+    .founder_dp {
+      margin: 0;
+    }
+
+    .pattern3 {
+      position: absolute;
+      bottom: -100px;
+      right: 0;
+    }
+
+    footer{
+      padding-top: 20rem;
+    }
+  }
+
+
+  @media screen and (min-width:1024px){
+
+    .container{
+      overflow: hidden;
+    }
+    .header_container{
+      background-color: var(--bg-color);
+      border-bottom-left-radius: 50% 20px;
+      border-bottom-right-radius:  50% 20px;
+      position:relative;
+      height: 45.625rem;
+    }
+
+    .pattern{
+      display: block;
+    }
+
+    .hero_text{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hero_action{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero_action h1{
+      /* max-width:39.6875rem; */
+      font-size: 5rem;
+      color: var(--white-txt-color, #FFF);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: "Fraunces 144pt";
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 5rem; 
+    }
+
+    .pattern_1{
+     margin-top: -10px;
+     margin-left: -150px;
+
+    }
+    .pattern_2{
+      margin-top: 150px;
+      margin-right: -50px;
+    }
+
+    .img_hero{
+      width: 44.6875rem;
+      height: 26.6875rem;
+      bottom: -25%;
+      left: 20%;
+    }
+
+    .img_hero img{
+      width: 100%;
+    }
+
+    .posts_container{
+      margin-top:6.5rem;
+    }
+
+    .posts_container{
+      display: flex;
+      justify-content: center;
+      gap: 1.65rem;
+    }
+
+    .s_container2{
+      position: relative;
+    }
+    .founder_message{
+      position: absolute;
+      height: 23.4375rem;
+      padding: 0 3.5rem;
+      top: 60%;
+      left: 25%;
+    }
+    .btn,.learn_more{
+      font-size: 1.12rem;
+      color: var(--bg-color, #24053E);
+      text-align: center;
+      font-family: Manrope;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2rem; /* 177.778% */
+      letter-spacing: -0.01125rem;
+      transition: all 0.75s ease-in-out;
+    }
+    .btn:hover{
+      background-color: transparent;
+      color: var(--btn-color);
+      cursor: pointer;
+      font-size: 1.125rem;
+    }
+
+    .founder_message h3, .founder_message p, .founder_message button{
+      text-align: left;
+      margin: 0;
+    }
+
+    .founder_message p{
+      font-size: 1.125rem;
+    }
+
+    .founder_dp {
+      margin: 0;
+    }
+
+    .pattern3 {
+      position: absolute;
+      bottom: -100px;
+      right: 0;
+    }
+
+    .section2{
+      padding: 0 10.18rem;
+    }
+
+    .s_container1{
+      padding-bottom: 10.91rem;
+    }
+
+    .s_container2{
+      max-width:48rem;
+      margin: 0 auto;
+      margin-top: 6.88rem;
+    }
+    footer{
+      padding-top: 20rem;
+    }
+    
+    .icon a svg path:hover{
+      fill:var(--bg-color);
+    }
+  }
